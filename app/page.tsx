@@ -1,10 +1,21 @@
 
-import React from 'react'
+import About from '@/sections/About'
+import Contact from '@/sections/Contact'
+import FAQ from '@/sections/Faq'
+import Hero from '@/sections/Hero'
+import Projects from '@/sections/Projects'
+import What from '@/sections/What'
+
 
 export default function page() {
   return (
     <div>
-      <h1>Construction site</h1>
+    <Hero />
+    <About />
+    <What />
+    <Projects />
+    <FAQ />
+    <Contact />
     </div>
   )
 }
