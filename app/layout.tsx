@@ -17,8 +17,8 @@ const libre = Libre_Caslon_Display({
 });
 
 export const metadata: Metadata = {
-  title: `Web Development Services | Weblify`,
-  description: `Professional web development services. Build fast, modern, and SEO-optimized websites for your business.`,
+  title: `Mason`,
+  description: `Best Company in bulding high ends Houses `,
 };
 
 export default function RootLayout({
