@@ -50,7 +50,7 @@ const sendEmail = (e:React.FormEvent<HTMLFormElement>) => {
     <form
     
     onSubmit={sendEmail}
-    className="w-full  py-7 px-5 h-max lg:h-max  flex flex-col  justify-center gap-8  bg-neutral-50 border  border-neutral-300 rounded-4xl"
+    className="w-full  py-7 px-5 h-max lg:h-max  flex flex-col  justify-center gap-8  bg-gray-50   border-neutral-300 rounded-4xl"
     >
         <div className="flex gap-4">
           <label className="flex flex-col gap-2 text-sm w-full">
@@ -102,7 +102,7 @@ const sendEmail = (e:React.FormEvent<HTMLFormElement>) => {
     <Spinner />
     Loading
       </Button> : 
-  <Button   className="rounded-xl cursor-pointer py-5 bg-black hover:bg-neutral-700">
+  <Button   className="rounded-xl cursor-pointer py-5 bg-green-700   hover:bg-green-800">
         Submit
       </Button>
       }

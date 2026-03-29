@@ -10,13 +10,24 @@ export default function Contact() {
 <div className='flex  items-center justify-between gap-8 lg:flex-row flex-col w-full'>
 
 <div className='flex flex-col gap-8 flex-1'>
-            <span className=' text-orange-500 font-semibold' > 
-Contact
-</span> 
+                   <SplitText  
+  text="Contact"
+  className="text-orange-500 font-semibold    text-md "
+  delay={30}
+  duration={1}
+  ease="power3.out"
+  splitType="chars"
+  from={{ opacity: 0, y: 40 }}
+  to={{ opacity: 1, y: 0 }}
+  threshold={0.1}
+  rootMargin="-100px"
+  textAlign='center'
+  
+/>
 
                 <SplitText  
-  text="Let's Start a Project"
- className="text-green-800 font-semibold text-5xl lg:text-6xl max-w-sm lg:max-w-xl"
+  text="Let's Talk!"
+ className="text-green-800 font-semibold text-[8rem] lg:text-[12rem] max-w-sm lg:max-w-md text-center lg:text-left"
   delay={30}
   duration={1}
   ease="power3.out"
@@ -25,14 +36,13 @@ Contact
   to={{ opacity: 1, y: 0 }}
   threshold={0.1}
   rootMargin="-100px"
-  textAlign='left'
   
 />
 
 
                 <SplitText  
-  text="Give us a call or drop by anytime, we endeavour to answer all enquiries within 24 hours on business days. We will be happy to answer your questions."
- className="text-xs lg:text-sm text-neutral-700 max-w-md"
+  text="Give us a call or drop by anytime, we endeavour to answer all enquiries within 24 hours."
+ className="text-xs lg:text-xs text-neutral-700 max-w-sm"
   delay={30}
   duration={1}
   ease="power3.out"
@@ -41,7 +51,7 @@ Contact
   to={{ opacity: 1, y: 0 }}
   threshold={0.1}
   rootMargin="-100px"
-  textAlign='left'
+  textAlign='center'
   
 />
   </div>

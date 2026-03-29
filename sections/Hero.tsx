@@ -46,7 +46,7 @@ Our Projects <ChevronRight />
     </Button>
       </Link>
       <Link href="#contact" >
-<Button variant="secondary" className='text-neutral-800 py-5 underline px-4 rounded-full hover:gap-4 flex items-center cursor-pointer'>
+<Button variant="secondary" className='text-neutral-800 py-5   px-4 rounded-full hover:gap-4 flex items-center cursor-pointer'>
 Contact us <ChevronRight />
     </Button>
     </Link>

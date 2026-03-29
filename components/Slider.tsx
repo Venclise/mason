@@ -19,11 +19,11 @@ export default function Slider({data}:{data:any}) {
   const swiperRef = useRef<SwiperType | null>(null);
 
   return (
-    <div className="relative w-full flex    h-max lg:p-10 p-6 ">
+    <div className="relative w-full flex h-screen  ">
     
       <Swiper
         modules={[Navigation, A11y]}
-        spaceBetween={14}
+        spaceBetween={15}
         slidesPerView={3}
         onSwiper={(swiper:any) => (swiperRef.current = swiper)}
         className="w-full h-screen  "
@@ -88,7 +88,7 @@ export default function Slider({data}:{data:any}) {
 ))}
       </Swiper>
 
-      <div className=" w-max absolute   bottom-[0%] right-0 flex items-center gap-4 z-10 ">
+      <div className=" w-max absolute   bottom-[-5%] right-0 flex items-center gap-4 z-10 ">
         <button
           onClick={() => swiperRef.current?.slidePrev()}
           className="

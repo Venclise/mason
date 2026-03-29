@@ -6,8 +6,8 @@ import React from 'react'
 
 export default function Projects() {
   return (
-    <div id="projects" className='h-max w-full lg:p-10 p-5  '>
-              <div className='flex flex-col'>
+    <div id="projects" className='h-max w-full   '>
+              <div className='flex flex-col lg:p-10 p-5'>
                 <SplitText  
   text="Projects "
   className="text-orange-500 font-semibold    text-md text-center"
@@ -38,8 +38,9 @@ export default function Projects() {
   
 />
   </div>
-
+  <div className='lg:p-10 md:p-5 p-2'>
       <Slider data={projects}/>
+  </div>
 
     </div>
   )

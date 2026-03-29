@@ -9,12 +9,12 @@ import React from 'react'
 export default function What() {
   return (
     <div id="services" className='h-max lg:h-screen w-full lg:p-10 p-5 flex-col flex justify-between '>
-        <div className='flex flex-col w-full items-center justify-center'>
+        <div className='flex gap-4 flex-col w-max'>
 
       
                 <SplitText  
   text="Serivces"
-  className="text-orange-500 font-semibold    text-md text-center"
+  className="text-orange-500 font-semibold    text-md "
   delay={30}
   duration={1}
   ease="power3.out"
@@ -30,7 +30,7 @@ export default function What() {
 
                 <SplitText
   text="Bringing new life to old process"
-  className="text-green-800 font-semibold text-4xl lg:text-6xl max-w-sm lg:max-w-xl"
+  className="text-green-800 font-semibold text-4xl lg:text-6xl max-w-sm lg:max-w-lg"
   delay={30}
   duration={1}
   ease="power3.out"
@@ -39,12 +39,12 @@ export default function What() {
   to={{ opacity: 1, y: 0 }}
   threshold={0.1}
   rootMargin="-100px"
-  textAlign='center'
+  textAlign='left'
   
 />
   </div>
 
-  <div className='flex  flex-wrap lg:flex-nowrap justify-center lg:flex-row items-center lg:h-[50vh] w-full gap-2 p-10 '>
+  <div className='flex mt-12  flex-wrap lg:flex-nowrap justify-center lg:flex-row items-center lg:h-[50vh] w-full gap-2 p-10 '>
 
     <AnimatedText animate='bottomToTop'>
     <div className=' lg:flex-1 w-full   h-full bg-gray-50 p-5 flex flex-col gap-4 rounded-2xl' >

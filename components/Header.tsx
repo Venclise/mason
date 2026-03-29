@@ -21,7 +21,7 @@ export default function Header() {
 
     <div className='py-5 px-8 flex h-[2.5rem] items-center justify-between  rounded-full   w-[90%] bg-neutral-100 backdrop-filter backdrop-blur-3xl   bg-opacity-20   '>
    <Link href="/">
-        <span className='font-semibold text-xl lg:text-2xl text-black  '>
+        <span className='font-semibold text-xl lg:text-2xl text-green-700  '>
             Mason
         </span>
    </Link>
@@ -38,7 +38,7 @@ export default function Header() {
 
           <Link href="/">
         <SheetClose className='cursor-pointer'>
-        <span className='font-semibold text-xl lg:text-2xl text-black  '>
+        <span className='font-semibold text-xl lg:text-2xl text-green-700    '>
             Mason
         </span>
         </SheetClose>

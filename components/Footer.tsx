@@ -61,27 +61,27 @@ export default function Footer() {
    </div>
         </div>
 
-        <div className='flex flex-col gap-3'>
-            <h3>Quick links.</h3>
+        <div className='flex flex-col gap-2'>
+            <h3 className='font-semibold text-black'>Quick links</h3>
             {
                 links.map(({href,id,link}) => (
-                    <Link href={href} key={id} className='text-sm underline font-semibold'>
+                    <Link href={href} key={id} className='text-sm text-neutral-700 hover:underline font-normal '>
                         {link}
                      </Link>
                 ))
             }
         </div>
            <div className='flex flex-col gap-3'>
-            <h3>Get in touch.</h3>
-          <a  href="https://wa.me/923165575485?text=Hi%20I%20want%20to%20discuss%20a%20project" className='flex items-center text-sm gap-4'>
+            <h3  className='font-semibold text-black'>Get in touch.</h3>
+          <a  href="https://wa.me/923165575485?text=Hi%20I%20want%20to%20discuss%20a%20project" className='flex items-center text-sm gap-4 text-neutral-700 hover:underline font-normal'>
           <Phone />
  +923165575485
           </a>
-             <a  href='mailto:weblifyorg@gmail.com' className='flex items-center text-sm gap-4'>
+             <a  href='mailto:weblifyorg@gmail.com' className='flex items-center text-sm gap-4 text-neutral-700 hover:underline font-normal'>
           <Mail />
 weblifyorg@gmail.com
           </a>
-          <a href="#" className='flex items-center text-sm gap-4'>
+          <a href="#" className='flex items-center text-sm gap-4 text-neutral-700 hover:underline font-normal   '>
             <MapPin />
             Street no 1 house no 1 Lahore
           </a>
