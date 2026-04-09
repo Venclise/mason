@@ -8,8 +8,8 @@ import React from 'react'
 
 export default function What() {
   return (
-    <div id="services" className='h-max lg:h-screen w-full lg:p-10 p-5 flex-col flex justify-between '>
-        <div className='flex gap-4 flex-col w-max'>
+    <div id="services" className='h-max lg:h-[130vh] w-full lg:p-10 p-5 flex-col flex justify-center '>
+        <div className='flex gap-4 flex-col items-center justify-center'>
 
       
                 <SplitText  
@@ -23,7 +23,7 @@ export default function What() {
   to={{ opacity: 1, y: 0 }}
   threshold={0.1}
   rootMargin="-100px"
-  textAlign='left'
+  textAlign='center'
   
 />
 
@@ -39,12 +39,12 @@ export default function What() {
   to={{ opacity: 1, y: 0 }}
   threshold={0.1}
   rootMargin="-100px"
-  textAlign='left'
+  textAlign='center'
   
 />
   </div>
 
-  <div className='flex mt-12  flex-wrap lg:flex-nowrap justify-center lg:flex-row items-center lg:h-[50vh] w-full gap-2 p-10 '>
+  <div className='flex mt-12  flex-wrap lg:flex-nowrap justify-center lg:flex-row items-center lg:h-[50vh] w-full gap-2  '>
 
     <AnimatedText animate='bottomToTop'>
     <div className=' lg:flex-1 w-full   h-full bg-gray-50 p-5 flex flex-col gap-4 rounded-2xl' >

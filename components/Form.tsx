@@ -98,11 +98,11 @@ const sendEmail = (e:React.FormEvent<HTMLFormElement>) => {
         </label>
 {
     loading ? 
-    <Button  disabled className="rounded-sm bg-black">
+    <Button  disabled className="rounded-sm py-6 bg-black">
     <Spinner />
     Loading
       </Button> : 
-  <Button   className="rounded-xl cursor-pointer py-5 bg-green-700   hover:bg-green-800">
+  <Button   className="rounded-full cursor-pointer py-6 bg-black">
         Submit
       </Button>
       }

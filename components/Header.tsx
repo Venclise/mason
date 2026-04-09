@@ -17,18 +17,18 @@ import {
 
 export default function Header() {
   return (
-    <div className='w-full  flex items-center   p-2 justify-center z-[100] w-full  h-[3rem] fixed top-0 left-0'>
+    <div className='w-full  flex items-center   p-2 justify-center z-[100]   h-[3rem]  absolute top-0 left-0'>
 
-    <div className='py-5 px-8 flex h-[2.5rem] items-center justify-between  rounded-full   w-[90%] bg-neutral-100 backdrop-filter backdrop-blur-3xl   bg-opacity-20   '>
+    <div className='py-5 px-8 flex h-[2.5rem] items-center justify-between  rounded-full   w-[90%]       '>
    <Link href="/">
-        <span className='font-semibold text-xl lg:text-2xl text-green-700  '>
+        <span className='font-semibold text-xl lg:text-2xl text-white  '>
             Mason
         </span>
    </Link>
 
    <Sheet>
   <SheetTrigger asChild>
- <Button variant="ghost" className=' text-black  '>
+ <Button variant="ghost" className=' text-white  '>
     <Menu />
    </Button>
   </SheetTrigger>
@@ -38,7 +38,7 @@ export default function Header() {
 
           <Link href="/">
         <SheetClose className='cursor-pointer'>
-        <span className='font-semibold text-xl lg:text-2xl text-green-700    '>
+        <span className='font-semibold text-xl lg:text-2xl text-black   '>
             Mason
         </span>
         </SheetClose>

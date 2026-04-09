@@ -7,6 +7,8 @@ export default function () {
   return (
     <div id="about" className='h-max  p-8 lg:p-10 mt-4   bg-gray-50 w-full flex  items-center justify-center gap-8 '>
    
+  
+
 <div className='flex flex-wrap-reverse  w-full justify-center items-start lg:items-center gap-15 lg:gap-30'>
 
 <div className='flex flex-col   ' >
@@ -21,7 +23,7 @@ export default function () {
   duration={1}
   className="count-up-text font-bold text-6xl lg:text-8xl"
 />
-<span className='text-sm lg:text-2xl  font-semibold text-orange-500'>+ completed projects</span>
+<span className='text-sm lg:text-xl  font-semibold text-orange-500'>+ completed projects</span>
   </div>
 
   
@@ -40,7 +42,7 @@ export default function () {
   duration={1}
   className="count-up-text font-bold text-6xl lg:text-8xl"
 />
-<span className='text-sm lg:text-2xl  font-semibold  text-orange-500'>+ years of experience</span>
+<span className='text-sm lg:text-xl  font-semibold  text-orange-500'>+ years of experience</span>
   </div>
 
   

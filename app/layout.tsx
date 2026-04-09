@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${inter.variable} ${libre.variable} antialiased`}>
-    <main>
+    <main className="relative">
 
           <Header />
           {children}
